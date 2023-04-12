@@ -22,7 +22,7 @@ btnSubmit.addEventListener("click", function (e) {
   const userEmail = inputEmail.value;
 
   if (userEmail === "") {
-    message = "Please input your email.";
+    message = "Whoops! It looks like you forgot to add your email";
     outputDesign("error");
   } else if (validateEmail(userEmail)) {
     message = "Thank you for subscribing!";
