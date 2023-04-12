@@ -1,0 +1,186 @@
+.main-contents {
+  padding: 1.5rem;
+  margin: 3rem auto 0;
+  max-width: 35rem;
+  position: relative;
+
+  @media only screen and (min-width: $bp-medium) {
+    margin-top: 1rem;
+  }
+
+  .logo {
+    height: 1.2rem;
+    width: auto;
+    margin-bottom: 2rem;
+    filter: contrast(var(--contrast));
+
+    @media only screen and (min-width: $bp-medium) {
+      margin-bottom: 1.2rem;
+      height: 1.5rem;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__heading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    margin-bottom: 1rem;
+
+    @media only screen and (min-width: $bp-medium) {
+      font-size: 2rem;
+    }
+
+    span {
+      font-weight: 600;
+      color: var(--very-dark-blue);
+    }
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .top-contents {
+    padding: 1.3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media only screen and (min-width: $bp-medium) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+    width: 100%;
+
+    .input-email,
+    .btn-submit {
+      padding: 0.5rem 1rem;
+      border-radius: 99999px;
+      background-color: var(--white);
+
+      &:focus {
+        outline-width: 3px;
+        outline-offset: 2px;
+        outline-color: var(--pale-blue);
+        outline-style: dotted;
+      }
+    }
+
+    .input-email {
+      border: 1px solid var(--pale-blue);
+      width: 100%;
+      overflow: hidden;
+      padding: 0.5rem 1.5rem;
+      color: var(--very-dark-blue);
+
+      &::placeholder {
+        color: var(--pale-blue);
+      }
+    }
+
+    .input-wrapper {
+      text-align: center;
+      width: 100%;
+
+      @media only screen and (min-width: $bp-small) {
+        text-align: left;
+      }
+
+      .output-message {
+        font-size: 0.8rem;
+        font-style: italic;
+        padding: 0 1.5rem;
+      }
+    }
+
+    .btn-submit {
+      background-color: var(--blue);
+      border: none;
+      color: var(--white-static);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      box-shadow: 0 5px 5px hsla(223, 87%, 63%, 0.4);
+      transition: background-color 0.2s ease;
+      overflow: hidden;
+      width: 100%;
+
+      &:hover {
+        background-color: var(--med-blue);
+      }
+
+      &:active {
+        background-color: var(--blue);
+      }
+    }
+
+    @media only screen and (min-width: $bp-small) {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .btn-submit {
+        width: 40%;
+      }
+    }
+  }
+}
+
+.footer {
+  margin-top: auto;
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+
+    .social-link {
+      height: 2rem;
+      width: 2rem;
+      border: 1px solid var(--pale-blue);
+      padding: 0.4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 99999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      svg {
+        fill: var(--blue);
+        height: 100%;
+        width: 100%;
+      }
+
+      &:hover {
+        background-color: var(--blue);
+        svg {
+          fill: var(--white);
+        }
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 0.7rem;
+    color: var(--gray);
+    margin-bottom: 2rem;
+  }
+}

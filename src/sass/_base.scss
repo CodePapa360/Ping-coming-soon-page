@@ -1,0 +1,50 @@
+:root {
+  // Primary
+  --blue: hsl(223, 87%, 63%);
+
+  --med-blue: hsl(223, 78%, 73%);
+
+  // Secondary
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 64%);
+
+  // Neutral
+  --gray: hsl(0, 0%, 59%);
+  --very-dark-blue: hsl(209, 33%, 12%);
+
+  //Added
+  --white-static: white;
+  --white: white;
+  --success: #007e33;
+  --contrast: 1;
+}
+
+$bp-large: 78.15em; // 1250px
+$bp-medium: 61.25em; // 980px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+
+::selection {
+  background-color: var(--blue);
+  color: var(--white-static);
+}
+
+html {
+  @media only screen and (min-width: $bp-small) {
+    font-size: 120%;
+  }
+
+  @media only screen and (min-width: $bp-medium) {
+    font-size: 140%;
+  }
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: var(--very-dark-blue);
+  background-color: var(--white);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
