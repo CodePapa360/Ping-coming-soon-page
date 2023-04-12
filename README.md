@@ -13,7 +13,7 @@
 </div>
 
   <p align="center">
-    This is my solution for the Ping coming soon page design challenge on Frontend Mentor.
+    This is my solution for the Ping coming soon page design challenge on Frontend Mentor. The objective was to build a coming soon page with email validation and get it looking as close to the design as possible.
   </p>
 
 ### Screenshot
@@ -73,9 +73,7 @@ npm start
 
 ### What I learned
 
-Building this project has provided me with valuable learning experiences. One of the challenges I encountered was implementing email validation using JavaScript, which involved learning about regular expressions and how to validate user input.
-
-Overall, this project has helped me to build on my existing knowledge and gain new insights.
+Through building this project, I was able to build upon the email validation skills I learned in a previous challenge. This second challenge, the Ping coming soon page, presented new layout and design obstacles to overcome. I gained further experience working with responsive images and honed my CSS skills. Overall, this project allowed me to build upon my previous knowledge and gain new insights in web development.
 
 ### Useful resources
 
