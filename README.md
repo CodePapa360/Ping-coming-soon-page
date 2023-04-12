@@ -6,7 +6,7 @@
       🚀 Live Site
     </a>
     |
-    <a href="#">
+    <a href="https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-w-sass-and-dark-mode-p9mxpe4aqF">
       💡 Solution
     </a>
   </h5>
