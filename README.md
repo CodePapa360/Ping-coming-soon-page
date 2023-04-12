@@ -20,7 +20,7 @@
 
 <a align="center" href="https://ping-alamin.netlify.app/">
 
-<img src="screenshots/Compared - Ping coming soon page - Alamin.png"/>
+<img src="./screenshots/Compared - Ping coming soon page - Alamin.png"/>
 </a>
 
 ### The challenge
@@ -104,4 +104,4 @@ I would like to express my gratitude to Frontend Mentor for providing this proje
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodePapa360/Base-Apparel/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
+This project is licensed under the [MIT](https://github.com/CodePapa360/Ping-coming-soon-page/blob/main/LICENSE.md) license, which means you can use, modify, and distribute the code as you wish. If you have any questions or feedback, feel free to reach out. Thank you for considering my code!
